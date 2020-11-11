@@ -9,6 +9,7 @@ services:
 
   webpacker:
     build: .
+    image: yosfik/myapp_web
     environment:
       - NODE_ENV=development
       - RAILS_ENV=development
